@@ -18,3 +18,8 @@ Older IP cameras (especially **Hikvision** and other major brands) rely heavily 
 2. Download the latest compiled version (`IPCam-Config-Tool.v1.0.0.exe`).
 3. Ensure your computer is on the same local network subnet as your cameras.
 4. Launch the application, input your camera's IP address, port, and credentials to configure or preview the stream.
+
+## ☕ Support This Project
+If this application saved you from replacing a legacy CCTV camera or wasting hours fighting with old Internet Explorer plugins, consider supporting my open-source work!
+
+* [❤️ Sponsor Me on GitHub](https://github.com/sponsors/Elangovan84)
