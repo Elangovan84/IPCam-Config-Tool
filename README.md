@@ -1,23 +1,20 @@
 # IPCam-Config-Tool
 
-A lightweight, browser-independent desktop application designed to discover, configure, and preview legacy IP CCTV cameras (including old Hikvision models).
+A browser-independent desktop utility designed to access, configure, and preview IP CCTV cameras directly using their IP addresses. 
 
 ## 🛑 The Problem Solved
-Older IP cameras rely heavily on deprecated **Internet Explorer (IE) ActiveX plugins** (`WebComponents.exe`) to stream video and change advanced settings. Because modern web browsers (Chrome, Edge, Firefox) have completely dropped ActiveX/NPAPI support, users are often locked out of viewing their camera previews or managing settings. 
+Older IP cameras (especially **Hikvision** and other major brands) rely heavily on deprecated web browser components or **ActiveX/NPAPI preview plugins** (`WebComponents.exe`) to display live video streams and change settings. Because modern browsers (Chrome, Edge, Firefox) no longer support these plugins, users face severe issues where the camera page is completely inaccessible, or the live video preview area shows a broken plugin error / black screen.
 
-**IPCam-Config-Tool** bypasses the web interface entirely by interacting directly with the camera's hardware network protocols and streaming video over standard RTSP.
+**IPCam-Config-Tool** eliminates the need for any web browser. By entering the camera's IP address directly, you can manage manufacturer device configurations and view a stable live preview window natively inside this tool.
 
-## ✨ Key Features
-* **Zero Browser Dependency:** Modify network settings, IP addresses, and camera parameters without opening a browser.
-* **Modern Live Preview:** Decodes the camera's raw video stream using modern rendering libraries instead of outdated plugins.
-* **Device Auto-Discovery:** Scans your local network subnet to automatically detect connected IP cameras.
+## ✨ Core Features
+* **Direct IP Access:** Connect directly to any target camera by manually inputting its IP address and configuration credentials.
+* **Plugin-Free Live Preview:** Bypasses broken browser plugins entirely, restoring the live camera feed view inside a native application frame.
+* **Device Configuration:** Easily modify manufacturer-specific device settings and network parameters without opening a web browser.
+* **Cross-Brand Support:** Focused heavily on resolving legacy Hikvision access issues, while remaining compatible with similar IP cameras.
 
 ## 🚀 How to Use the Executable
-1. Navigate to the **[Releases](../../releases)** section on the right side of this page.
-2. Download the latest compiled version (`IPCam-Config-Tool.exe`).
-3. Connect your computer to the same local network as your IP cameras.
-4. Launch the application (Runs standalone, no installation required).
-
-## 🛠️ Requirements & Technical Specs
-* **Supported Protocols:** RTSP (Real-Time Streaming Protocol), UDP Device Discovery
-* **Compatibility:** Tested extensively with legacy Hikvision and generic ONVIF-compliant IP cameras.
+1. Navigate to the **[Releases](../../releases)** tab.
+2. Download the latest compiled version (`IPCam-Config-Tool.v1.0.0.exe`).
+3. Ensure your computer is on the same local network subnet as your cameras.
+4. Launch the application, input your camera's IP address, port, and credentials to configure or preview the stream.
