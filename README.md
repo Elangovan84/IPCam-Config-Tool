@@ -2,6 +2,8 @@
 
 A browser-independent desktop utility designed to access, configure, and preview IP CCTV cameras directly using their IP addresses. 
 
+![App Screenshot](ipcam_preview.png)
+
 ## 🛑 The Problem Solved
 Older IP cameras (especially **Hikvision** and other major brands) rely heavily on deprecated web browser components or **ActiveX/NPAPI preview plugins** (`WebComponents.exe`) to display live video streams and change settings. Because modern browsers (Chrome, Edge, Firefox) no longer support these plugins, users face severe issues where the camera page is completely inaccessible, or the live video preview area shows a broken plugin error / black screen.
 
